@@ -199,7 +199,7 @@ def algo(text,
     out = []
     
     if split_by == "punctuation":
-        sentences = re.split(r'( *[\.\?\;\,\:\—\n!][\'"\)\]]* *)', text)
+		sentences = re.split(r'( *[\.\?\;\,\:\—\n!][\'"\)\]]* *)', text)
     elif split_by == "lines":
         sentences = re.split(r'(\n)', text)
     else:
