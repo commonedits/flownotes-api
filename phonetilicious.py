@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import nltk
 from nltk.corpus import wordnet as wn
 from nltk.corpus import cmudict as cmu
